@@ -65,19 +65,19 @@ elif scenario_selection == "Scenario 3":
 elif scenario_selection == "Scenario 4":
     setprompt("context", "s4", "s4cutoff")
 elif scenario_selection == "Research Scenario 1":
-    setprompt("rscontext", "rs1", "rs1cutoff")
+    setprompt("context", "rs1", "rs1cutoff")
 elif scenario_selection == "Research Scenario 2":
-    setprompt("rscontext", "rs2", "rs2cutoff")
+    setprompt("context", "rs2", "rs2cutoff")
 elif scenario_selection == "Research Scenario 3":
-    setprompt("rscontext", "rs3", "rs3cutoff")
+    setprompt("context", "rs3", "rs3cutoff")
 elif scenario_selection == "Research Scenario 4":
-    setprompt("rscontext", "rs4", "rs4cutoff")
+    setprompt("context", "rs4", "rs4cutoff")
 elif scenario_selection == "Research Scenario 5":
-    setprompt("rscontext", "rs5", "rs5cutoff")
+    setprompt("context", "rs5", "rs5cutoff")
 elif scenario_selection == "Research Scenario 6":
-    setprompt("rscontext", "rs6", "rs6cutoff")
+    setprompt("context", "rs6", "rs6cutoff")
 elif scenario_selection == "Research Scenario 7":
-    setprompt("rscontext", "rs7", "rs7cutoff")
+    setprompt("context", "rs7", "rs7cutoff")
 
 
 # Prompt user to proceed to scenario
