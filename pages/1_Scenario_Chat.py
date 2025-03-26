@@ -1,6 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
+MAX_RESPONSE_COUNT = 1000
 
 st.set_page_config(
     page_title="Chat",
@@ -65,7 +66,7 @@ if prompt := st.chat_input("Ask the supervisor questions", disabled = st.session
 
     # st.write(st.session_state["response_counter"])
 
-    if st.session_state.response_counter < 6:
+    if st.session_state.response_counter < MAX_RESPONSE_COUNT:
     
         with st.chat_message("user"):
             st.markdown(prompt)

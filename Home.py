@@ -2,6 +2,21 @@ import streamlit as st
 import json
 
 
+options = (
+    "Activity 2 - Phase Seperator Plant Run-through",
+    "Activity 2 - Green Hydrogen Plant Run-through",
+    "Activity 3 - Guided Scenario 1",
+    "Activity 3 - Guided Scenario 2",
+    "Activity 3 - Guided Scenario 3",
+    "Activity 3 - Green Hydrogen Plant Guided Scenario",
+    "Activity 5 - Reflection Scenario 1",
+    "Activity 5 - Reflection Scenario 2",
+    "Activity 5 - Reflection Scenario 3",
+    "Activity 5 - Reflection Scenario 4",
+    "Activity 5 - Green Hydrogen Plant Reflection"
+)
+
+
 st.title("Operation Training Simulator Chatbot")
 
 
