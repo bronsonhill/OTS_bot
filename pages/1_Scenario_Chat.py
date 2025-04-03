@@ -61,7 +61,7 @@ for message in st.session_state.chat_history:
 
 
 # Chat logic
-if prompt := st.chat_input("Ask the supervisor questions", disabled = st.session_state.response_counter >= 6):
+if prompt := st.chat_input("Ask the supervisor questions"):
     st.session_state.chat_history.append({"role": "user", "content": prompt})
 
     # st.write(st.session_state["response_counter"])
